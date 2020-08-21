@@ -50,8 +50,8 @@ footer {
 .grid {
   height: 100%;
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-template-rows: repeat(8, 50px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 main {
